@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IWeatherForecastService, WeatherForecastService>();
 builder.Services.AddInfrastructure(builder.Configuration);
 
-//addcomment
+//addcomment to see in git 
 var app = builder.Build();
 
 var scope = app.Services.CreateScope();
